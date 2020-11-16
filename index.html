@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Web Development Tech Challenge</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=MedievalSharp"/><!--link GoogleFont on css-->
+</head>
+
+<body>
+
+  <section class="top">
+    <div><img src="https://cdn.pixabay.com/photo/2016/04/27/06/01/heart-1356019_960_720.png" alt="logo" width="50" />
+    </div>
+    <div id="cityName"><h1><b>ROYAL KINGDOM OF COLCHIS</b></h1></div>
+  </section>
+  <section id="menu">
+    <ul>
+      <li><a href="#presentation">About</a></li>
+      <li><a href="#textFamily">Royal Family</a></li>
+      <li><a href="#table">Game Results</a></li>
+      <li><a href="#contactForm">Contact Us</a></li>
+    </ul>
+  </section>
+
+  <section class="welcome" id="welcometext">
+    <div id="title">
+      <h1>
+        WELCOME TO THE ROYAL KINGDOM OF COLCHIS!
+      </h1>
+    </div>
+  </section>
+
+  <section id="presentation">
+    <h2>
+      About the Kingdom
+    </h2>
+    <p>
+      It is a powerful, dynamic and welcoming kingdom.
+      Have no fear for your safety as our forts and numerous
+      soldiers patrol the streets of the whole kingdom.
+      So take advantage of the large market each morning
+      which offers only fresh and regional products but also our
+      great blacksmith who will be happy to make your sword.
+      We welcome heroes from around the world, especially the Argonauts!
+      And the Amazons will be delighted to test your fighting skills around
+      a big fire in the public square.
+    </p>
+  </section>
+
+
+
+  <section id="textFamily">
+    <h2>
+      The Royal Family
+    </h2>
+  </section>
+
+  <section class="family">
+    <div>
+      <img id="king"
+        src="https://images.pexels.com/photos/189528/pexels-photo-189528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        alt="king" width="200" height="200" />
+      <p>
+        King Aeëtes
+      </p>
+    </div>
+    <div>
+      <img id="princess"
+        src="https://images.pexels.com/photos/1637884/pexels-photo-1637884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        alt="princess" width="200" height="200" />
+      <p>
+        Princess Madeas
+      </p>
+    </div>
+    <div>
+      <img id="queen"
+        src="https://images.pexels.com/photos/1314550/pexels-photo-1314550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        alt="queen" width="200" height="200" />
+      <p>
+        Queen Idyia
+      </p>
+    </div>
+  </section>
+
+  <div id="knight"></div>
+
+
+  <section id="table">
+    <h2>
+      Javelin Event Results
+    </h2>
+    <table id="tablee">
+      <thead>
+        <tr>
+          <th>POINTS</th>
+          <th>PLAYER</th>
+          <th>FAMILY NAME</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>94</td>
+          <td>Sir John</td>
+          <td>John of Elderworth</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+
+  <section id="contactForm">
+    <p><b>
+        Fill in the form below to contact the Royal Kingdom
+      </b>
+    </p>
+    <form>
+      <label for="firstname">First name</label><br>
+      <input type="text" name="fname" value="" /><br><br>
+      <label for="lastname">Last name</label><br>
+      <input type="text" name="lname" value="" /><br><br>
+      <label for="email">E-mail address</label><br>
+      <input type="email" name="email" value="" /><br><br>
+      <label for="message">Write your message</label><br>
+      <textarea type="text" name="message" value=""></textarea><br><br>
+      <input type="submit" name="submit" id="submit"/>
+    </form>
+  </section>
+
+  <section id="upPage">
+    <ul>
+      <li><a href="#cityName">UP PAGE</a></li>
+    </ul>
+  </section>
+
+  <!-- Connect the Javascript file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
